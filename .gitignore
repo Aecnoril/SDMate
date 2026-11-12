@@ -1,0 +1,55 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Pp]ublish/
+artifacts/
+
+# Visual Studio / Rider / VS Code user files
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Test and coverage results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+[Cc]overage/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+~$*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local config and secrets (SDMate never stores credentials; keep it that way)
+*.local.json
+*.secrets.json
+appsettings.Development.json
